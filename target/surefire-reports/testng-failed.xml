@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QA CLick]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AppicalUAT(failed)" verbose="0">
+    <classes>
+      <class name="secondPackage.AppicalUAT">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="InitailzeDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- secondPackage.AppicalUAT -->
+    </classes>
+  </test> <!-- AppicalUAT(failed) -->
+</suite> <!-- Failed suite [QA CLick] -->
