@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA CLick" >
+<listeners>
+    <listener class-name = "screenshotpackage.Listener"></listener>
+    </listeners>
+
+<test name="Test for HomePage">
+    <classes>
+      <class name="firstpackage.HomePage2"/>
+          </classes>
+         </test>
+
+  <test name="VerifyCheckoutAutomationPractice">
+	<classes>
+	     <class name="thirdPackage.AutomationPractice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="LoginIntoAppicalUAT">
+	<classes>
+	     <class name="secondPackage.AppicalUATLogin"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="AppicalUAT">
+  <classes>
+  	<class name="secondPackage.AppicalUAT">
+  	</class>
+  </classes>
+  </test>
+</suite> 
+

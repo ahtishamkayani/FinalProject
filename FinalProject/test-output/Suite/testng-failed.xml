@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FirstPackage.HomePage2">
+        <methods>
+          <include name="InitailzeDriver"/>
+          <include name="openbrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FirstPackage.HomePage2 -->
+      <class name="FirstPackage.validateTitle">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="InitailzeDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FirstPackage.validateTitle -->
+      <class name="FirstPackage.validateContactNavigation">
+        <methods>
+          <include name="InitailzeDriver"/>
+          <include name="openbrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- FirstPackage.validateContactNavigation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
